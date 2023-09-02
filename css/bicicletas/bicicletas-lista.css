@@ -1,0 +1,16 @@
+.bicicletas-lista {
+    padding: 60px 0 120px;
+}
+
+.bicicletas-lista h2{
+    margin-bottom: 40px;
+    max-width: 1200px;
+}
+.bicicletas-lista ul {
+    display: flex;
+    gap: 40px;
+    padding: 0 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}

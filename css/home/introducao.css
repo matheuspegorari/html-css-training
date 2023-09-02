@@ -29,18 +29,8 @@
 
 .introducao p {
     margin-bottom: 20px;
-
 }
 
-@media (width < 1200px) {
-    .introducao h1 {
-        font-size: 48px;
-    }
-
-    .introducao p {
-        font-size: 18px;
-    }
-}
 
 @media (width < 800px) {
     .introducao-bg {
@@ -58,7 +48,7 @@
     }
 
     .introducao h1 {
-        font-size: 32px;
+        
         margin-bottom: 16px;
     }
 

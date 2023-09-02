@@ -20,12 +20,9 @@
 }
 
 .header-menu a {
-    font-size: 1.125rem;
     padding: 16px 0px;
     display: inline-block;
     position: relative;
-    font-family: "Poppins";
-    font-weight: 400;
 }
 
 .header-menu a::after {
@@ -57,7 +54,7 @@
     }
 
     .header-menu a:hover {
-        background-color: #2e2e2e;
+        background-color: var(--c10);
     }
 }
 
@@ -67,6 +64,5 @@
     }
     .header-menu a {
         padding: 8px 12px;
-        font-size: 0.875rem;
     }
 }
