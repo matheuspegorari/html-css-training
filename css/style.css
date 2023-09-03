@@ -3,6 +3,7 @@
 @import url(./utils/colors.css);
 
 @import url(./global/header.css);
+@import url(./global/footer.css);
 /* Utils */
 @import url(./utils/components.css);
 
@@ -14,6 +15,10 @@
 
 /* Bicicletas */
 @import url(./bicicletas/bicicletas-lista.css);
+
+/* Seguros */
+@import url(./seguros/seguros.css);
+
 
 
 
