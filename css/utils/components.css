@@ -30,6 +30,26 @@
     background: linear-gradient(#ffb60d, #e59317);
 }
 
+.botao.seta {
+    display: flex;
+    align-items: center;
+}
+
+.botao.seta::after  {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background: url(../../img/icones/seta.svg);
+    transition: transform .2s;
+}
+
+.botao.seta:hover::after {
+    transform: translateX(4px);
+    transition: .2s;
+}
+
 @media (width < 600px) {
     .botao {
         padding: 12px 16px;
@@ -68,6 +88,10 @@
 
 .titulo p {
     margin-bottom: 4px;
+}
+
+.titulo h1 span {
+    color: var(--cp1);
 }
 
 @media (width < 800px) {
