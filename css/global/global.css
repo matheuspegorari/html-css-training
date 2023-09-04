@@ -8,7 +8,8 @@ h3,
 h4,
 ul,
 p,
-blockquote {
+blockquote,
+dd {
     margin: 0;
 }
 body {
@@ -35,3 +36,4 @@ img {
 img[src$=".jpg"] {
     border-radius: 4px;
 }
+
