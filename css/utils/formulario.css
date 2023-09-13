@@ -12,7 +12,8 @@
 
 .form input[type="text"],
 .form input[type="email"],
-.form textarea {
+.form textarea,
+.form select {
     font: 400 1rem/1.5 "Roboto", sans-serif;
     background-color: var(--c1);
     border: 1px solid var(--c2);
