@@ -63,7 +63,6 @@
     padding: 32px;
     background: var(--c12);
     border-radius: 4px;
-
 }
 
 .bicicleta-informacoes {
@@ -78,9 +77,9 @@
     margin-bottom: 8px;
 }
 
-.bicicleta-informacoes h3{
+.bicicleta-informacoes h3 {
     margin-bottom: 8px;
-} 
+}
 
 .bicicleta-ficha li {
     padding: 4px 0;
@@ -110,9 +109,8 @@
 }
 
 @media (width < 400px) {
-    .bicicleta-informacoes, .bicicleta-comprar {
+    .bicicleta-informacoes,
+    .bicicleta-comprar {
         grid-template-columns: 1fr;
     }
 }
-
-

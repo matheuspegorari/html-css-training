@@ -18,12 +18,12 @@
 }
 
 .vantagens h3,
-.vantagens img{
+.vantagens img {
     margin-bottom: 8px;
 }
 
 .vantagens li img {
-    width: 32px;    
+    width: 32px;
 }
 
 @media (width < 800px) {
@@ -31,6 +31,4 @@
         padding-top: 60px;
         padding-bottom: 60px;
     }
-
 }
-

@@ -13,12 +13,13 @@
 }
 
 .depoimento-conteudo {
-    align-self: end;
     padding: 40px 40px 80px 80px;
+    align-self: end;
+    background: url(../../img/dec/bottom-right-p.svg) no-repeat bottom 40px right 40px;
 }
 
 .depoimento-conteudo p {
-    font-family: 'Merriweather', serif;
+    font-family: "Merriweather", serif;
     font-style: italic;
     font-weight: 900;
     margin-bottom: 32px;
@@ -34,13 +35,13 @@
 }
 
 .depoimento p::before {
-    content: '“';  
+    content: "“";
     left: -50px;
     top: -20px;
 }
 
-.depoimento p::after{
-    content: '”';
+.depoimento p::after {
+    content: "”";
 }
 @media (width > 1200px) {
     .depoimento img {
@@ -50,11 +51,11 @@
 
 @media (width < 800px) {
     .depoimento {
-        grid-template-columns: 1fr;        
+        grid-template-columns: 1fr;
         text-align: center;
     }
 
-    .depoimento-conteudo { 
+    .depoimento-conteudo {
         justify-self: center;
         padding: 40px 20px;
     }
