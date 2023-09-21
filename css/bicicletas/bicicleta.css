@@ -104,6 +104,7 @@
     }
 
     .bicicleta-imagens {
+        display: grid;
         grid-row: 2;
     }
 }

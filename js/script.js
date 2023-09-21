@@ -23,9 +23,22 @@ const questions = document.querySelectorAll(".perguntas button");
 
 questions.forEach((question) => {
     question.addEventListener("click", (e) => {
-        elem = e.currentTarget
-        answer = document.getElementById(elem.getAttribute("aria-controls"))
-        answer.classList.toggle("ativo")
-        elem.setAttribute('aria-expanded', answer.classList.contains("ativo"))
+        elem = e.currentTarget;
+        answer = document.getElementById(elem.getAttribute("aria-controls"));
+        answer.classList.toggle("ativo");
+        elem.setAttribute("aria-expanded", answer.classList.contains("ativo"));
+    });
+});
+
+// galeria de bicicletas
+
+const gallery = document.querySelectorAll(".bicicleta-imagens img");
+const galleryContainer = document.querySelector(".bicicleta-imagens");
+console.log(gallery, galleryContainer);
+
+gallery.forEach((image) => {
+    image.addEventListener("click", (e) => {
+        if (matchMedia('(width > 1000px)').matches)
+        galleryContainer.prepend(image);
     });
 });
