@@ -4,8 +4,10 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Seguro | Bikcraft</title>
-        <link rel="preload" href="./css/style.css" as="style" />
-        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+        <link rel="preload" href="./css/style.min.css" as="style" />
+
+        <link rel="stylesheet" href="./css/style.min.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,7 +39,7 @@
             </div>
 
             <div class="seguros container">
-                <div class="seguros-item">
+                <div class="seguros-item fadeInLeft" data-anime="200">
                     <h3 class="font-1-xl c6">PRATA</h3>
                     <span class="font-1-xl c0">R$ 199 <span class="font-1-xs c6">mensal</span></span>
                     <ul class="font-2-m c0">
@@ -49,7 +51,7 @@
                     <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
                 </div>
 
-                <div class="seguros-item">
+                <div class="seguros-item fadeInRight" data-anime="250">
                     <h3 class="font-1-xl cp1">OURO</h3>
                     <span class="font-1-xl c0">R$ 299 <span class="font-1-xs c6">mensal</span></span>
                     <ul class="font-2-m c0">
@@ -177,6 +179,7 @@
                 <p class="footer-copy font-2-m c6">Bikcraft © Alguns direitos reservados</p>
             </div>
         </footer>
+        <script src="./js/plugins/simple-anime.js"></script>
         <script src="./js/script.js"></script>
     </body>
 </html>

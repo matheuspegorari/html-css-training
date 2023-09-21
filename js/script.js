@@ -42,3 +42,7 @@ gallery.forEach((image) => {
         galleryContainer.prepend(image);
     });
 });
+
+// Animações
+if (window.SimpleAnime)
+new SimpleAnime()
